@@ -3,13 +3,13 @@
 # Gonzalo Olguín Moncada
 
 <a href="https://gonzal0lguin.github.io">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=3B82F6&center=true&vCenter=true&width=620&lines=Robotics+R%26D+Engineer+%40+AMTC;Autonomous+navigation+%C2%B7+Perception+%C2%B7+RL;Generative+planners+meet+vision-language+models;Off+the+keyboard%3A+somewhere+in+the+Andes+%F0%9F%8F%94%EF%B8%8F" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=3B82F6&center=true&vCenter=true&width=620&lines=Robotics+R%26D+Engineer+%40+AMTC;Autonomous+navigation+%C2%B7+Perception+%C2%B7+RL;Hobby+projects+%C2%B7+DIY+%C2%B7+Electronics;Off+the+keyboard%3A+somewhere+in+the+Andes+%F0%9F%8F%94%EF%B8%8F" alt="Typing intro" />
 </a>
 
 <p>
   <a href="https://gonzal0lguin.github.io"><img src="https://img.shields.io/badge/Website-gonzal0lguin.github.io-0F172A?style=for-the-badge&logo=astro&logoColor=white" alt="Website" /></a>
   <a href="https://www.linkedin.com/in/gonzalo-olguin"><img src="https://img.shields.io/badge/LinkedIn-gonzalo--olguin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://arxiv.org/abs/2602.01429"><img src="https://img.shields.io/badge/arXiv-2602.01429-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv" /></a>
+  <a href="https://github.com/gonzal0lguin/Sem-NaVAE"><img src="https://img.shields.io/badge/IEEE%20RA--L-Sem--NaVAE-B31B1B?style=for-the-badge&logo=ieee&logoColor=white" alt="Paper" /></a>
   <a href="https://gonzal0lguin.github.io/assets/pdf/cv.pdf"><img src="https://img.shields.io/badge/CV-PDF-10B981?style=for-the-badge&logo=readthedocs&logoColor=white" alt="CV" /></a>
 </p>
 
@@ -34,8 +34,8 @@ I'm an **Electrical Engineer** with a **Master of Engineering Sciences** from **
 <table>
 <tr>
 <td width="42%">
-  <a href="https://arxiv.org/abs/2602.01429">
-    <img src="https://raw.githubusercontent.com/gonzal0lguin/gonzal0lguin.github.io/main/public/assets/img/posts/sem-navae/hero.png" alt="Sem-NaVAE" />
+  <a href="https://github.com/gonzal0lguin/Sem-NaVAE">
+    <img src="https://raw.githubusercontent.com/gonzal0lguin/Sem-NaVAE/main/docs/img/hero.jpg" alt="Sem-NaVAE running outdoors" />
   </a>
 </td>
 <td>
@@ -49,7 +49,11 @@ A mapless outdoor planner that splits *where the robot can go* from *where it sh
 - a lightweight **VLM (CLIPSeg)** scores them from natural-language prompts,
 - a local planner executes them, all **in real time and without a map**.
 
-[📄 arXiv](https://arxiv.org/abs/2602.01429) · [🎥 Full run video](https://youtu.be/i3R5ey5O2yk) · [📝 Write-up](https://gonzal0lguin.github.io/projects/sem-navae/)
+**90% success** on 120–240 m routes in unseen outdoor environments.
+
+[💻 **Code**](https://github.com/gonzal0lguin/Sem-NaVAE) · [📄 Paper](https://doi.org/10.1109/LRA.2026.3703234) · [📝 arXiv](https://arxiv.org/abs/2602.01429) · [🎥 Video](https://youtu.be/i3R5ey5O2yk)
+
+<sub>The code release is a documented Python package with a ROS Noetic node, Docker image, tests and CI.</sub>
 
 </td>
 </tr>
@@ -71,33 +75,33 @@ A mapless outdoor planner that splits *where the robot can go* from *where it sh
   <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/gonzal0lguin/path-sampling">
-    <img src="https://raw.githubusercontent.com/gonzal0lguin/gonzal0lguin.github.io/main/public/assets/img/headers/path-sampling.png" alt="Curvature-based path sampling" />
+  <a href="https://github.com/gonzal0lguin/automated-curtains">
+    <img src="https://raw.githubusercontent.com/gonzal0lguin/automated-curtains/main/doc/ui/overview.png" alt="Automated curtains UI" />
   </a>
-  <h3><a href="https://github.com/gonzal0lguin/path-sampling">Curvature-Based Path Sampling</a></h3>
-  Extracts the most informative waypoints from a global plan (curvature and gradient peaks plus uniform sampling) to feed an RL local planner. Built at AMTC.
+  <h3><a href="https://github.com/gonzal0lguin/automated-curtains">Automated Curtains</a> <sub>🚧 in development</sub></h3>
+  Motorized roller blinds on an ESP32: NEMA 17 stepper with a TMC2209 driver, AS5600 magnetic encoder for absolute position, and a smart-knob controller with a round display. Comes with a web app and API, so the blinds open when the alarm goes off.
   <br/><br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" /> <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" /> <img src="https://img.shields.io/badge/Embedded-0F172A?style=flat-square" />
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://gonzal0lguin.github.io/en/projects/mirar-como-un-robot/">
-    <img src="https://raw.githubusercontent.com/gonzal0lguin/gonzal0lguin.github.io/main/public/assets/img/headers/mirar-como-robot.jpg" alt="Looking at a mountain like a robot" />
+  <a href="https://github.com/gonzal0lguin/mountain-tools">
+    <img src="https://raw.githubusercontent.com/gonzal0lguin/mountain-tools/main/examples/union.topo.jpg" alt="A GPS track drawn on a photo of Cerro Unión" />
   </a>
-  <h3><a href="https://gonzal0lguin.github.io/en/projects/mirar-como-un-robot/">Looking at a Mountain Like a Robot</a></h3>
-  A 160 km "simulated LiDAR" over the Copernicus GLO-30 elevation model: 7,200 rays and about 38 M samples per summit to compute what's visible from each peak.
+  <h3><a href="https://github.com/gonzal0lguin/mountain-tools">mountain-tools</a></h3>
+  Draws a GPX route on a photo of the mountain by recovering the camera: it matches the skyline in the picture against the one predicted by the Copernicus GLO-30 elevation model, then projects the track with line-of-sight checks. The same maths as a robot projecting its path into its camera. <a href="https://gonzal0lguin.github.io/en/projects/mirar-como-un-robot/">Read the story →</a>
   <br/><br/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" /> <img src="https://img.shields.io/badge/GIS-2E7D32?style=flat-square" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/gonzal0lguin/gonzoBot">
-    <img src="https://raw.githubusercontent.com/gonzal0lguin/gonzal0lguin.github.io/main/public/assets/img/headers/gonzo-bot.png" alt="GonzoBot" />
+  <a href="https://github.com/gonzal0lguin/ScaraBot">
+    <img src="https://user-images.githubusercontent.com/80728332/200715063-348ea203-9c15-4480-a278-6230c602adac.gif" alt="ScaraBot playing Tic-Tac-Toe" />
   </a>
-  <h3><a href="https://github.com/gonzal0lguin/gonzoBot">GonzoBot</a></h3>
-  An open-source, 3D-printed differential-drive robot: custom hardware and electronics, running ROS from the ground up.
+  <h3><a href="https://github.com/gonzal0lguin/ScaraBot">ScaraBot</a></h3>
+  A 2-DoF SCARA robot that beats you at Tic-Tac-Toe: computer vision reads the board, a minimax AI picks the move, a Raspberry Pi Zero W plans it and an Arduino UNO drives the arm. 3D-printed parts included.
   <br/><br/>
-  <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Fusion_360-F58220?style=flat-square&logo=autodesk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white" /> <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" />
 </td>
 </tr>
 </table>
@@ -108,11 +112,8 @@ A mapless outdoor planner that splits *where the robot can go* from *where it sh
 
 | Project | What it is |
 |---|---|
+| [GonzoBot](https://github.com/gonzal0lguin/gonzoBot) | Open-source, 3D-printed differential-drive robot running ROS, with custom hardware and electronics. |
 | [🗺️ Route analyzer](https://gonzal0lguin.github.io/en/ascents/route-tool) | In-browser GPX tool: merge tracks, elevation profile, 3D view, climb splits and a time planner. |
-| [ScaraBot](https://github.com/gonzal0lguin/ScaraBot) | 2-DoF SCARA arm that beats you at Tic-Tac-Toe with minimax. |
-| [mobb-python](https://github.com/gonzal0lguin/mobb-python) | Minimum Oriented Bounding Box algorithm, used to split occupancy maps optimally. |
-| [Jaime-arm](https://github.com/gonzal0lguin/Jaime-arm) | Control for the robotic "neck" of the lab's robot Jaime. |
-| [CM25-2430-Driver](https://github.com/gonzal0lguin/CM25-2430-Driver) | Arduino driver for low-cost CM25-2430 brushless DC motors. |
 | [gonzal0lguin.github.io](https://github.com/gonzal0lguin/gonzal0lguin.github.io) | My bilingual portfolio and mountaineering log, built with Astro and Tailwind, plus a custom content editor. |
 
 </details>
@@ -172,7 +173,7 @@ A mapless outdoor planner that splits *where the robot can go* from *where it sh
 I log my climbs, routes and summit panoramas, and run a native-plant reforestation project, over at
 **[gonzal0lguin.github.io](https://gonzal0lguin.github.io/en/ascents/)**.
 
-<sub>🇨🇱 Spanish (native) · 🇬🇧 English (C1) · 🇩🇪 German (A1) · Based in Santiago, Chile</sub>
+<sub>🇨🇱 Spanish (native) · 🇬🇧 English (C1) · 🇩🇪 German (A1) · Based in the Andes</sub>
 
 <br/><br/>
 
