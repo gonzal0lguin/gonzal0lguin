@@ -120,21 +120,6 @@ A mapless outdoor planner that splits *where the robot can go* from *where it sh
 
 ---
 
-## 💼 Experience
-
-| Role | Where | When |
-|---|---|---|
-| **R&D Engineer** | Advanced Mining Technology Center (AMTC) | 2026 – present |
-| **Lab Manager** | Robotics Lab, Universidad de Chile | 2024 – present |
-| **Autonomous Navigation Team Lead** | Bender (RoboCup@Home), Universidad de Chile | 2023 – 2025 |
-| **Engineering Intern** | AMTC | 2024 |
-| **Robotics Software Engineer** | Maquintel Robotic Services | 2023 |
-| **Teaching Assistant** | Universidad de Chile (Mobile Robotics, Duckietown, Comp. Intelligence…) | 2020 – 2025 |
-
-<sub>At Maquintel I worked on 3D mapping of tunnels: ICP/RANSAC point-cloud alignment, IMU sensor fusion for robust odometry, and a Gazebo simulation of the Vizca D400 inspection robot built from scratch.</sub>
-
----
-
 ## 🧰 Toolbox
 
 **Languages & ML**<br/>
